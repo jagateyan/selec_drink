@@ -1,18 +1,49 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'cart.dart'; // cart.dartファイルをインポート
+//import 'package:flutter/services.dart';
 
 // 商品データ
 List<Map<String, dynamic>> _products = [
   {
-    'image': 'https://example.com/image1.jpg',
-    'name': '商品名1',
-    'price': 1000,
+    'image': 'assets/images/コーラ.jpg', // 実際のファイル名に置き換えてください
+    'name': 'コーラ',
+    'price': 170,
   },
   {
-    'image': 'https://example.com/image2.jpg',
-    'name': '商品名2',
-    'price': 2000,
+    'image': 'assets/images/fanta_orange.png',
+    'name': 'ファンタオレンジ',
+    'price': 170,
+  },
+  {
+    'image': 'assets/images/Calpis_Logo.png',
+    'name': 'カルピス',
+    'price': 170,
+  },
+  {
+    'image': 'assets/images/CC_Lemon.png',
+    'name': 'ccレモン',
+    'price': 150,
+  },
+  {
+    'image': 'assets/images/canada-dry.png',
+    'name': 'Canada Dry ジンジャーエール',
+    'price': 170,
+  },
+  {
+    'image': 'assets/images/dodekamin.jpg',
+    'name': 'ドデカミン',
+    'price': 140,
+  },
+  {
+    'image': 'assets/images/oro_c.png',
+    'name': 'オロナミンC',
+    'price': 120,
+  },
+  {
+    'image': 'assets/images/gogo_t.jpg',
+    'name': '午後の紅茶ミルクティー',
+    'price': 230,
   },
   // ... ここに商品データを複数追加
 ];
